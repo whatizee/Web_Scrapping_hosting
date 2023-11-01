@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <style>
+        .btn {
+            background-color: #3498db;
+            color: #0e0c0c;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        body {
+            background-color: #3a0a9c;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #2574a9;
+        }
+        .back {
+            text-align: right;
+            position: absolute;
+            top: 20px; /* Adjust the distance from the bottom */
+            right: 20px; /* Adjust the distance from the right */
+            max-width: 400px;
+        }
+        h1 {
+            font-family: "Times New Roman", serif; /* Change the font family */
+            font-size: 48px; /* Change the font size to 48 pixels */
+            color: #ff7300; /* Keep the color as specified */
+        }
+        h2 {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a simple HTML page that displays the classic "Hello, World!" message.</p>
+    <p>This Page is for fetching the Population in the World.</p>
+    <div class="back">
+        <button class="btn" onclick="redirectTohome()">Back</button>
+    </div>
+    <script>
+        function redirectTohome(){
+            window.location.href='/'
+        }
+    </script>
+</body>
+</html>
